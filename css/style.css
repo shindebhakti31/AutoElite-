@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0b0b0b;
+    color: white;
+}
+
+.hero {
+    min-height: 80vh;
+    background:
+        linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.70)),
+        url("../images/hero/autoelite-hero.jpg") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.hero-content h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 14px 30px;
+    background-color: #d4af37;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #fff;
+}
+
+.featured {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.featured h2 {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.featured p {
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+    border-top: 1px solid #333;
+}
+
+.logo img {
+    width:150px;
+    height:auto;
+    display:block;
+}
