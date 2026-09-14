@@ -1,0 +1,79 @@
+.compare-section {
+    padding: 60px 6%;
+    text-align: center;
+}
+
+.compare-section h1 {
+    font-size: 42px;
+    margin-bottom: 12px;
+    color: #d4af37;
+}
+
+.compare-section > p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #ddd;
+}
+
+.table-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #151515;
+    border: 1px solid #333;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+}
+
+th {
+    background: #d4af37;
+    color: #000;
+    padding: 18px 15px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+td {
+    padding: 16px 15px;
+    border-bottom: 1px solid #333;
+    color: #fff;
+    font-size: 15px;
+}
+
+tr:hover td {
+    background: #222;
+    color: #d4af37;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+
+@media (max-width: 700px) {
+
+    .compare-section {
+        padding: 40px 5%;
+    }
+
+    .compare-section h1 {
+        font-size: 32px;
+    }
+
+    .compare-section > p {
+        font-size: 16px;
+    }
+
+    table {
+        min-width: 750px;
+    }
+
+    th,
+    td {
+        padding: 12px;
+    }
+}
